@@ -14,7 +14,6 @@ export default function Home() {
         <div className={styles.topnav}>
           <a
             href="https://www.translink.ca"
-            target="_blank"
           >
           <Image src="/Translink_logo.png" alt="Translink Logo" width={125} height={50} />
           </a>
@@ -34,7 +33,7 @@ export default function Home() {
         </div>
         <div className={styles.description}>
           <p>
-          The Expo Line connects Downtown Vancouver with the cities of Burnaby, New Westminster, and  Surrey.
+          The Expo Line connects Downtown Vancouver with the cities of Burnaby, New Westminster, and Surrey.
           </p>
         </div>
         <Map/>
@@ -59,11 +58,10 @@ export default function Home() {
         <div className={styles.column}>
           <a
             href="https://www.translink.ca"
-            target="_blank"
           >
           <Image src="/Translink_logo.png" alt="Translink Logo" width={140} height={60}/>
           </a>
-          <p>Metro Vancouver's transportation network, serving residents and visitors with public transit, major roads, bridges and Trip Planning.</p>
+          <p>Metro Vancouver&apos;s transportation network, serving residents and visitors with public transit, major roads, bridges and Trip Planning.</p>
         </div>
         <div className={styles.column}>
           <h2>Getting Around</h2>
@@ -85,7 +83,7 @@ export default function Home() {
           <h2>Contact</h2>
           <p>Call us at 604.953.3333</p>
           <div className={styles.bottomnav}>
-            <a href='https://www.google.com/maps/place/TransLink/@49.2247324,-122.8939064,17z/data=!4m5!3m4!1s0x5486765906294161:0x8be44a756edffc2f!8m2!3d49.2247289!4d-122.8917178'>400-287 Nelson's Ct., New Westminster, BC V3L0E7</a>
+            <a href='https://www.google.com/maps/place/TransLink/@49.2247324,-122.8939064,17z/data=!4m5!3m4!1s0x5486765906294161:0x8be44a756edffc2f!8m2!3d49.2247289!4d-122.8917178'>400-287 Nelson&apos;s Ct., New Westminster, BC V3L0E7</a>
           </div>
         </div>
       </footer>
